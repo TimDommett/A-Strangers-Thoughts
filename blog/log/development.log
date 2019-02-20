@@ -719,3 +719,73 @@ Processing by ArticlesController#new as */*
 Completed 200 OK in 70ms (Views: 40.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:50:30 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:50:34 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:50:52 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:50:54 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-21 01:51:07 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:51:24 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:51:26 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:51:31 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:51:38 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:52:10 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
