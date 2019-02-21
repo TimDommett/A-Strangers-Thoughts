@@ -14,79 +14,9 @@ body {
   font-family: sans-serif;
 }
 
-ul  {
-  text-align: center;
-}
-
-h2 {
-  font-size: 32px;
-  text-align: center;
-  padding-top: 80px
-}
-
-/* This selector selects ALL anchor tag children of ALL list elements that
-are children of an Unordered Lsit element */
-ul li a, figcaption a {
-  text-decoration: none;
-  color: inherit;
-  /* text-align: center; */
-}
-
-/* This selector selects only IMMEDIATE (1 level deep) image element children
-of the header element */
-header > img {
-  /* width: 100px; */
-}
-
-/* Selects all elements with the class attribute "ingredients-list" */
-.ingredients-list {
-
-  /* The list style property is shorthand for multiple list-style properties*/
-  list-style: square inside;
-}
-
-ol {
-  /* list-style: upper-roman inside; */
-}
-
-.user_review h4 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-input[type="radio"] {
-    -webkit-appearance: none;
-    width: 27px;
-    height: 27px;
-    background-image: url(./stars.png);
-    vertical-align: bottom;
-}
-
-input[type="radio"]:checked {
-  background-position: 30px 30px;
-}
-
-
-input:last-child {
-    background: gold;
-}
-
-input:last-child:hover {
-    -webkit-filter: brightness(90%);
-}
-
-ol li:nth-of-type(2n) {
-  /* background-color: whitesmoke; */
-}
-
-h2 + .user_review {
-    border-top: 1px solid black;
-}
 
 
 header {
-  /* padding: 20px; */
-  background: red;
   background: black;
   width: 100%;
 position: fixed /* float: left;
@@ -96,6 +26,8 @@ position: fixed /* float: left;
 }
 header a {
   display: block;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 
@@ -109,34 +41,43 @@ h1 {
 nav {
   padding-top: 15px;
   padding-right: 30px;
-  background-color: grey;
-  padding-bottom: 20px
+  background-color: #7B283E;
+  background-color: #1E5070;
+  /* background-color: #1E5070; */
+  padding-bottom: 20px;
   /* display: flex;
   align-items: center;
   justify-content: space-evenly; */
 }
 
 .header_nav_name {
-  padding-top: 5px
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: x-large;
+  color: aliceblue;
 }
 
-.header_nav_logo {
-  float: left;
-}
+
 
 .header_nav_list {
   float: right;
   list-style: none;
   justify-content: flex-end;
   padding-right: 10px;
-  /* padding-left: 500px */
+  color: black;
+}
+
+.header_nav_logo {
+  float: left;
+  padding-top: 5px;
 }
 
 .header_nav_list > li {
   float: left;
   font-weight: bold;
   padding-left: 20px;
-  padding-top: 5px
+  padding-top: 10px;
+  color: black;
 }
 
 /* clearfix */
@@ -147,7 +88,7 @@ nav {
 }
 
 .header a:hover {
-  color: black;
+  text-decoration: underline;
   /* color: red */
 }
 
