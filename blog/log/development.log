@@ -789,3 +789,198 @@ Processing by ArticlesController#new as HTML
 Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:52:49 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 41ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/" for 127.0.0.1 at 2019-02-21 01:53:00 +0200
+
+AbstractController::ActionNotFound - The action 'index' could not be found for ArticlesController:
+
+Started POST "/__better_errors/711b8b8d9b83d690/variables" for 127.0.0.1 at 2019-02-21 01:53:01 +0200
+Started GET "/articles/" for 127.0.0.1 at 2019-02-21 01:54:30 +0200
+
+AbstractController::ActionNotFound - The action 'index' could not be found for ArticlesController:
+
+Started POST "/__better_errors/2da8daa38c1c9e3e/variables" for 127.0.0.1 at 2019-02-21 01:54:30 +0200
+Started GET "/articles/" for 127.0.0.1 at 2019-02-21 01:55:01 +0200
+
+AbstractController::ActionNotFound - The action 'index' could not be found for ArticlesController:
+
+Started POST "/__better_errors/110058d028aebac8/variables" for 127.0.0.1 at 2019-02-21 01:55:01 +0200
+Started GET "/articles/" for 127.0.0.1 at 2019-02-21 01:56:51 +0200
+
+AbstractController::ActionNotFound - The action 'index' could not be found for ArticlesController:
+
+Started POST "/__better_errors/86b4ef7e29de7f48/variables" for 127.0.0.1 at 2019-02-21 01:56:51 +0200
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:56:53 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 75ms (Views: 38.7ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2019-02-21 01:56:56 +0200
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pyZhL1yO32+i2L+MaAqs7H6RqIVhV6VlVpXAAbeLB+kJf3yTmRdxnnPtn39alqfVEUDKQ2XDQX//vAiWwoVMUA==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/articles_controller.rb:8
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 28ms (Views: 23.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2019-02-21 01:57:57 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+Completed 406 Not Acceptable in 174ms (ActiveRecord: 7.8ms)
+
+
+
+ActionController::UnknownFormat - ArticlesController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.:
+
+Started POST "/__better_errors/3caa05f998861c97/variables" for 127.0.0.1 at 2019-02-21 01:57:58 +0200
+Started GET "/articles/1" for 127.0.0.1 at 2019-02-21 01:58:41 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+Completed 406 Not Acceptable in 123ms (ActiveRecord: 0.3ms)
+
+
+
+ActionController::UnknownFormat - ArticlesController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.:
+
+Started POST "/__better_errors/110b8ec28f555944/variables" for 127.0.0.1 at 2019-02-21 01:58:41 +0200
+Started GET "/articles/1" for 127.0.0.1 at 2019-02-21 01:58:45 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+Completed 406 Not Acceptable in 151ms (ActiveRecord: 6.8ms)
+
+
+
+ActionController::UnknownFormat - ArticlesController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.:
+
+Started POST "/__better_errors/797eb10cd927b3b6/variables" for 127.0.0.1 at 2019-02-21 01:58:46 +0200
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:59:00 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2019-02-21 01:59:05 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+Completed 406 Not Acceptable in 124ms (ActiveRecord: 0.3ms)
+
+
+
+ActionController::UnknownFormat - ArticlesController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.:
+
+Started POST "/__better_errors/1a841995edacbde6/variables" for 127.0.0.1 at 2019-02-21 01:59:05 +0200
+Started GET "/articles/new" for 127.0.0.1 at 2019-02-21 01:59:09 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2019-02-21 01:59:17 +0200
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tG89AenRlmqUTKaQExFNySmTmNc+fDAiB+nQ1pdx2aMaNiC9LEg4m0V5hmMhjUbwRkL6ETro1DiuwBhB4n+SGg==", "article"=>{"title"=>"Yes", "description"=>"this stuff"}, "commit"=>"Create Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:8
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Yes"], ["description", "this stuff"], ["created_at", "2019-02-20 23:59:17.065980"], ["updated_at", "2019-02-20 23:59:17.065980"]]
+  ↳ app/controllers/articles_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:8
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 6ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2019-02-21 01:59:17 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+Completed 406 Not Acceptable in 125ms (ActiveRecord: 0.3ms)
+
+
+
+ActionController::UnknownFormat - ArticlesController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.:
+
+Started POST "/__better_errors/9958ba6e96c22d5b/variables" for 127.0.0.1 at 2019-02-21 01:59:17 +0200
+Started GET "/articles/4" for 127.0.0.1 at 2019-02-21 01:59:49 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+Completed 406 Not Acceptable in 119ms (ActiveRecord: 0.4ms)
+
+
+
+ActionController::UnknownFormat - ArticlesController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.:
+
+Started POST "/__better_errors/18cc3a3f7ef01031/variables" for 127.0.0.1 at 2019-02-21 01:59:49 +0200
+Started GET "/articles/4" for 127.0.0.1 at 2019-02-21 02:00:07 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2019-02-21 02:00:12 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:17
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
