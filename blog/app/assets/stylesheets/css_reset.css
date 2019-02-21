@@ -32,5 +32,17 @@ h1 {
   /* display: block; */
 }
 
-form {
+.show_break {
+  padding-top: 40px;
+}
+
+.article-body {
+ border-top: 1px solid #eaeaea;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+.article-title {
+ font-weight: bold;
+ font-size: 1.5em;
 }
