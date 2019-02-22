@@ -1,4 +1,6 @@
 <h1 align="center">Listing all articles</h1>
+<div class="show_break">
+  <h2>All Articles</h2>
 <% @articles.each do |article| %>
  <div class="row">
   <div class="col-xs-8 col-xs-offset-2">
@@ -17,3 +19,5 @@
   </div>
  </div>
 <% end %>
+<p></p>
+<%= link_to "New Article", new_article_path(@article), class: "btn btn-xs btn-primary" %>
