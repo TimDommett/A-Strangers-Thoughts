@@ -5,6 +5,7 @@ html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, asid
     font: inherit;
     list-style: none;
     text-decoration: none;
+    font-family: sans-serif;
 
 }
 
@@ -107,6 +108,7 @@ a {
   /* font-size: 16px; */
   margin: 4px 2px;
   border-radius: 12px;
+    display: none;
 }
 
 .btn-success {
@@ -130,6 +132,32 @@ a {
   margin-bottom: 20px;
 }
 
+.article-meta-details {
+ border-top: 1px solid #eaeaea;
+ margin-top: 15px;
+}
+
+.signup {
+  padding: 80px;
+  text-align: center;
+}
+
 nav {
   overflow: hidden;
+}
+
+.about_copy {
+
+    text-align: justify;
+    padding: 100px;
+    font-size: x-large;
+}
+
+.home_page {
+  text-align: center;
+}
+
+.home_page_copy {
+  text-align: justify;
+  padding: 20px;
 }

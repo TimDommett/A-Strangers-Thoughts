@@ -7,23 +7,29 @@
     <!-- <img src="./assets/eye-animation3.gif" alt="App Academy Logo" class = "header_nav_logo group"> -->
     <nav class = "header_nav group">
       <div class = "bloglogo">
-        <%= image_tag("trees666.gif") %>
+        <%= link_to image_tag("trees666.gif"), root_path %>
       </div>
       <h1 id="Existential Economics" class = "header_nav_name group">Existential Economics</h1>
       <div class="hour_glass_logo">
         <%= image_tag("Hour-Glass.png") %>
       </div>
       <ul class = "header_nav_list group">
-        <li><a href="#About">About</a></li>
-        <li><a href="#Contact Us">Contact Us</a></li>
-        <li><a href="#Login">Login</a></li>
+        <li><a <%= link_to 'Articles', articles_path %></a></li>
+        <li><a <%= link_to 'About', about_path %></a></li>
+        <li><a <%= link_to 'Contact Us', contact_us_path %></a></li>
+
+        <!-- <li><a href="#Login">Login</a></li> -->
       </ul>
       <ul class="hamburger-dropdown">
       <li>
       <ul>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Contact Us">Contact Us</a></li>
-        <li><a href="#Login">Login</a></li>
+        <li><a <%= link_to 'Articles', articles_path %></a></li>
+        <li><a <%= link_to 'About', about_path %></a></li>
+        <li><a <%= link_to 'Contact Us', contact_us_path %></a></li>
+
+
+
+
       </ul>
       </li>
     </ul>
